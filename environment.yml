@@ -3,12 +3,12 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.10
+  - python=3.7
   - cartopy
   - numpy
   - matplotlib>=3.3
   - pandas
   - geopandas
   - obspy>=1.2
-  - jupyterlab  
+  - jupyterlab
   - tabulate
