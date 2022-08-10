@@ -21,7 +21,7 @@ jobs:
     - name: Install dependencies
       run: |
         conda info -a
-        conda env create -q -n --file environment.yml --name GeoNet
+        conda env create -q --file environment.yml --name GeoNet
         conda activate GeoNet
     - name: Lint with flake8
       run: |
