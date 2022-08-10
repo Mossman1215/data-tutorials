@@ -23,6 +23,7 @@ jobs:
         conda info -a
         conda config --set always_yes yes --set changeps1 no
         conda init --all
+        source /home/runner/.bashrc
         conda env create -q --file environment.yml --name GeoNet
         conda activate GeoNet
     - name: Lint with flake8
